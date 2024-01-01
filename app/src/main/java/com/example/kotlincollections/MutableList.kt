@@ -42,55 +42,55 @@ fun main() {
     }
     println(".....mutableList[2].....")
     println(mutablelist[2])
-    mutableList12.add(2,"Rohan")
+    mutableList12.add(2, "Rohan")
 
     println("......mutableList.add(2,\"Rohan\")......")
-    for(element in mutableList12){
+    for (element in mutableList12) {
         println(element)
     }
     mutableList12.add("Ashu")
     println(".....mutableList.add(\"Ashu\")......")
-    for(element in mutableList12){
+    for (element in mutableList12) {
         println(element)
     }
-    mutableList12.addAll(1,mutableList3)
+    mutableList12.addAll(1, mutableList3)
     println("... mutableList.addAll(1,mutableList3)....")
-    for(element in mutableList12){
+    for (element in mutableList12) {
         println(element)
     }
 
     mutableList12.addAll(mutableList2)
     println("...mutableList.addAll(mutableList2)....")
-    for(element in mutableList12){
+    for (element in mutableList12) {
         println(element)
     }
     mutableList12.remove("Vijay")
     println("...mutableList.remove(\"Vijay\")....")
-    for(element in mutableList12){
+    for (element in mutableList12) {
         println(element)
     }
     mutableList12.removeAt(2)
     println("....mutableList.removeAt(2)....")
-    for(element in mutableList12){
+    for (element in mutableList12) {
         println(element)
     }
 
     println(".... mutableList.retainAll(mutableList4)....")
     mutableList12.retainAll(mutableList4)
-    for(element in mutableList12){
+    for (element in mutableList12) {
         println(element)
     }
     println(".... mutableList2.clear()....")
     mutableList2.clear()
 
-    for(element in mutableList2){
+    for (element in mutableList2) {
         println(element)
     }
     println(".... mutableList2 after mutableList2.clear()....")
     println(mutableList2)
 
     println("....mutableList.subList(1,2)....")
-    println(mutableList12.subList(1,2))
+    println(mutableList12.subList(1, 2))
 
 
 }
