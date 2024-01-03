@@ -65,10 +65,9 @@ fun main() {
         println(myMap3[m.key])
     }
     println("Kotlin Map Interface Example 13 - mapOf().plus()")
-    for(p in myMap3.plus(Pair(5, "Rohan"))){
+    for (p in myMap3.plus(Pair(5, "Rohan"))) {
         println("Element at key ${p.key} = ${p.value}")
     }
-
 
 
 
