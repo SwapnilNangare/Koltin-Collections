@@ -38,16 +38,15 @@ fun main() {
 
     println("After adding 34")
 
-    for(ele in hashSetOf1){
+    for (ele in hashSetOf1) {
         println(ele)
     }
 
     hashSetOf1.addAll(initSet)
 
-    for(ele in hashSetOf1){
+    for (ele in hashSetOf1) {
         println(ele)
     }
-
 
 
 }
