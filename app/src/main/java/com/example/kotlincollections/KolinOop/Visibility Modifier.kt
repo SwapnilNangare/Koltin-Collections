@@ -48,7 +48,8 @@ internal class Example {
 
 internal val y = 10
 
-open class Base() {
+open class Base
+    () {
     var a = 1 // public by default
     private var b = 2 // private to Base class
     protected open val c = 3  // visible to the Base and the Derived class
