@@ -1,4 +1,4 @@
-package com.example.kotlincollections
+package com.example.kotlincollections.collections
 
 fun main() {
     println("Kotlin Collections")

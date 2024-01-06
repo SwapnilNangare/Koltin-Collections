@@ -1,4 +1,4 @@
-package com.example.kotlincollections.classAndObject
+package com.example.kotlincollections.KolinOop
 
 fun main() {
     var obj1 = Account()
