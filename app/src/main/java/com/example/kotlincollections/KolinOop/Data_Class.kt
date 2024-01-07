@@ -24,7 +24,7 @@ fun main() {
     Before 1.1,data class may only implements interface. After that data classes may extend other classes.
 
 
-     */
+    */
 
     val u = User("Swapnil", 123, "swa123@gmail.com")
     println(u)
