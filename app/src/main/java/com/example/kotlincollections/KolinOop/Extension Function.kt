@@ -15,6 +15,7 @@ fun main() {
     val result = list.swap(0, 2)
     println("after swapping the list :$result")
 
+
 }
 
 class Student {
