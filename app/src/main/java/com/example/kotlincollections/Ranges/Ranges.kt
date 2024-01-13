@@ -30,4 +30,12 @@ fun main() {
     }
     // Let's see an example of integer range using downTo(), downTo, and rangeTo() methods.
 
+    println()
+    for (x in 1.rangeTo(5))
+        print(x)
+    println()
+    for (x in 5.downTo(1))
+        print(x)
+    println()
+
 }
